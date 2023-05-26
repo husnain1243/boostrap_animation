@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="main_container">
+
+        <div class="1">
+            <div class="container-fluid">
+                <div class="row flex-nowrap">
+                    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                            <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none"><span class="fs-5 d-none d-sm-inline">Menu</span></a>
+                            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                                <li class="nav-item"><a href="#" class="nav-link align-middle px-0"><i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span></a></li>
+                                <li>
+                                    <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle"><i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
+                                    <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                        <li class="w-100"><a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a></li>
+                                        <li><a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="nav-link px-0 align-middle"><i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a></li>
+                                <li>
+                                    <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle "><i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a>
+                                    <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                                        <li class="w-100"><a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a></li>
+                                        <li><a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle"><i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
+                                    <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                                        <li class="w-100"><a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a></li>
+                                        <li><a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a></li>
+                                        <li><a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a></li>
+                                        <li><a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="nav-link px-0 align-middle"><i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a></li>
+                            </ul>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        drop down
+        <div class="dropdown pb-4">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                <span class="d-none d-sm-inline mx-1">loser</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+        </div>
+
+        side navbar
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-auto bg-light sticky-top">
+                    <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">
+                        <a href="/" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only"><i class="bi-bootstrap fs-1"></i></a>
+                        <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
+                            <li class="nav-item"><a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home"><i class="bi-house fs-1"></i></a></li>
+                            <li><a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard"><i class="bi-speedometer2 fs-1"></i></a></li>
+                            <li><a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders"><i class="bi-table fs-1"></i></a></li>
+                            <li><a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Products"><i class="bi-heart fs-1"></i></a></li>
+                            <li><a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Customers"><i class="bi-people fs-1"></i></a></li>
+                        </ul>
+                        <div class="dropdown">
+                            <a href="#" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi-person-circle h2"></i></a>
+                            <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
+                                <li><a class="dropdown-item" href="#">New project...</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm p-3 min-vh-100">
+                </div>
+            </div>
+        </div> 
+
+        see later what this 
+        <div class="offcanvas offcanvas-start w-25" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false">
+            <div class="offcanvas-header">
+                <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas">Menu</h6>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body px-0">
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-truncate">
+                            <i class="fs-5 bi-house"></i><span class="ms-1 d-none d-sm-inline">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link text-truncate">
+                            <i class="fs-5 bi-speedometer2"></i><span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-truncate">
+                            <i class="fs-5 bi-table"></i><span class="ms-1 d-none d-sm-inline">Orders</span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle  text-truncate" id="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fs-5 bi-bootstrap"></i><span class="ms-1 d-none d-sm-inline">Bootstrap</span>
+                        </a>
+                        <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdown">
+                            <li><a class="dropdown-item" href="#">New project...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-truncate">
+                            <i class="fs-5 bi-grid"></i><span class="ms-1 d-none d-sm-inline">Products</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-truncate">
+                            <i class="fs-5 bi-people"></i><span class="ms-1 d-none d-sm-inline">Customers</span> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col min-vh-100 py-3">
+                    <button class="btn float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button">
+                        <i class="bi bi-arrow-right-square-fill fs-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"></i>
+                    </button>
+                    Content..
+                </div>
+            </div>
+        </div>
+
+        accordians
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button></h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Accordion Item #2</button></h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Accordion Item #3</button></h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        MOVING EYE ON HOVER
+        <div class="bg-dark">
+            <h1 class="text-center text-white mt-5">Move the cursor to animate the eyes</h1>
+            <div class="eyes">
+                <div class="eye">
+                    <div class="ball"></div>
+                </div>
+                <div class="eye">
+                    <div class="ball"></div>
+                </div>
+            </div>  
+        </div> 
+    
+        TOUCH FADE IN OR FADE OUT
+        <div class="bg-image h-100" style="background-image: url('https://mdbootstrap.com/img/Photos/new-templates/valentines-app/img1.jpg');">
+            <div class="mask" style="background-color: rgba(163, 69, 67, .4);">
+                <div class="container-xl container-fluid mt-xl-0 mt-lg-5">
+                    <div class="row align-items-center vh-100">
+                        <div class="col-md-6 col-lg-4 pt-5 pt-lg-0">
+                            <div class="phone mask-custom d-flex align-items-stretch">
+                                <div class="inner px-4 text-center">
+                                <h2 class="mt-5 mb-3" style="letter-spacing: 3px;" data-mdb-toggle="animation"
+                                    data-mdb-animation-start="onLoad" data-mdb-animation="fade-in" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="200">Hello, My Dear</h2>
+                                <p class="lead mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="fade-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="300">How do
+                                    you feel today?</p>
+                                <div class="py-5">
+                                    <img src="https://mdbootstrap.com/img/Photos/new-templates/valentines-app/draw1.png"
+                                    alt="Valentines Day" class="w-100" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="400">
+                                </div>
+                                <h4 class="mb-5" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="fade-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="500">
+                                    Valentine's Day Ideas</h4>
+                                <button type="button" class="btn btn-outline-light btn-block btn-rounded btn-lg"
+                                    data-mdb-ripple-color="light" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="600">
+                                    Spend time with loved ones
+                                </button>
+                                <button type="button" class="btn btn-outline-light btn-block btn-rounded btn-lg"
+                                    data-mdb-ripple-color="light" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="700">
+                                    Take care of yourself
+                                </button>
+                                <button type="button" class="btn btn-outline-light btn-block btn-rounded btn-lg"
+                                    data-mdb-ripple-color="light" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="800">
+                                    Support a charity
+                                </button>
+                                <div class="dots d-flex justify-content-center align-items-center mt-5" data-mdb-toggle="animation"
+                                    data-mdb-animation-start="onLoad" data-mdb-animation="zoom-in" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="900">
+                                    <div class="dot dot-lg mx-1"></div>
+                                    <div class="dot mx-1"></div>
+                                    <div class="dot mx-1"></div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 pt-5 pt-lg-0">
+                            <div class="phone mask-custom d-flex align-items-stretch">
+                                <div class="inner px-4 w-100">
+                                <div class="py-5 mt-1 d-flex justify-content-between" data-mdb-toggle="animation"
+                                    data-mdb-animation-start="onLoad" data-mdb-animation="zoom-in" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="100">
+                                    <a href="#!"><i class="fas fa-arrow-left fa-lg"></i></a>
+                                    <a href="#!"><i class="fas fa-ellipsis-v fa-lg"></i></a>
+                                </div>
+                                <h4 class="text-center mb-5" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="fade-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
+                                    Self-Care Ideas at Home</h4>
+                                <div class="row">
+                                    <div class="col-12">
+                                    <div class="card mb-3" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                        data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="300">
+                                        <div class="card-body">
+                                        <a href="#!" class="stretched-link">
+                                            <h5 class="my-2"><i class="fas fa-brain me-2 fa-fw" style="color: #fca984;"></i>Meditation
+                                            Practice</h5>
+                                        </a>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-3" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                        data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="400">
+                                        <div class="card-body">
+                                        <a href="#!" class="stretched-link">
+                                            <h5 class="my-2"><i class="fas fa-spa me-2 fa-fw" style="color: #fca984;"></i>Yoga Practice
+                                            </h5>
+                                        </a>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-3" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                        data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="500">
+                                        <div class="card-body">
+                                        <a href="#!" class="stretched-link">
+                                            <h5 class="my-2"><i class="fas fa-grin-beam me-2 fa-fw" style="color: #fca984;"></i>Happy
+                                            Dance Choreography</h5>
+                                        </a>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-3" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                        data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="600">
+                                        <div class="card-body">
+                                        <a href="#!" class="stretched-link">
+                                            <h5 class="my-2"><i class="fas fa-book me-2 fa-fw" style="color: #fca984;"></i>Books for your
+                                            development</h5>
+                                        </a>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-3" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                        data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="700">
+                                        <div class="card-body">
+                                        <a href="#!" class="stretched-link">
+                                            <h5 class="my-2"><i class="fas fa-carrot me-2 fa-fw" style="color: #fca984;"></i>Recipes for
+                                            healthy meals</h5>
+                                        </a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pb-lg-5 pb-xl-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="fade-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="800">
+                                    <i class="fas fa-heart fa-lg mt-4 pt-2 mb-2"></i>
+                                    <h5 class="mb-0"><a href="#!">Explore more</a></h5>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 pt-5 pt-lg-0">
+                            <div class="phone mask-custom d-flex align-items-stretch">
+                                <div class="inner px-4 w-100 text-center">
+                                <div class="py-5 mt-1 d-flex justify-content-between" data-mdb-toggle="animation"
+                                    data-mdb-animation-start="onLoad" data-mdb-animation="zoom-in" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="100">
+                                    <a href="#!"><i class="fas fa-arrow-left fa-lg"></i></a>
+                                    <a href="#!"><i class="fas fa-ellipsis-v fa-lg"></i></a>
+                                </div>
+                                <i class="fas fa-brain fa-2x mb-3" style="color: #fca984;" data-mdb-toggle="animation"
+                                    data-mdb-animation-start="onLoad" data-mdb-animation="fade-in" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="200"></i>
+                                <h4 class="mb-3" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="fade-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="300">
+                                    Meditation
+                                    Practice</h4>
+                                <h6 class="mb-4 pb-2" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="fade-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="400">Guided
+                                    Meditation by Ajahn Brahm</h6>
+                                <div class="ratio ratio-16x9" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="500">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/41YBH7jus_w" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                </div>
+                                <p class="mt-4 pt-1 text-start" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="fade-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="600">Ajahn
+                                    Brahm gives us the means to practise the art which we call
+                                    meditation. During these four ‘Introduction to Meditation’ sessions Ajahn expands on the different
+                                    types of meditation, their purpose and the way to practise them.</p>
+                                <h5 class="mt-5 mb-4" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="fade-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="700"><a
+                                    href="#!">More guided meditations</a></h5>
+
+                                <div class="d-flex justify-content-end" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="zoom-in" data-mdb-animation-duration="1000" data-mdb-animation-delay="800">
+                                    <a href=""><i class="fas fa-cog fa-2x"></i></a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        card flipping
+        <div class="container position-relative">
+            <div class="card position-absolute d-flex align-items-center justify-content-center" style="--i:-1;--j:0">
+                <div class="cardbody text-center">
+                    <div class="text-uppercase h4">One</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta autem facere ipsum dolore? Architecto facilis accusamus voluptates asperiores aspernatur ab?</div>
+                </div>
+            </div>
+            <div class="card position-absolute d-flex align-items-center justify-content-center" style="--i:0;--j:1">
+                <div class="cardbody text-center">
+                    <div class="text-uppercase h4">Two</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta autem facere ipsum dolore? Architecto facilis accusamus voluptates asperiores aspernatur ab?</div>
+                </div>
+            </div>
+            <div class="card position-absolute d-flex align-items-center justify-content-center" style="--i:1;--j:2">
+                <div class="cardbody text-center">
+                    <div class="text-uppercase h4">Three</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta autem facere ipsum dolore? Architecto facilis accusamus voluptates asperiores aspernatur ab?</div>
+                </div>
+            </div>
+        </div> 
+
+        type Writter words
+        <div class="">
+            <h1 class="text-white">
+                <a href="" class="typewrite text-black text-decoration-none" data-period="2000" data-type='[ "Hi, Im VipulM.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+                    <span class="wrap"></span>
+                </a>
+            </h1>
+        </div>
+    
+        animate right with circle
+        <div class="swal2-icon swal2-success swal2-animate-success-icon" style="display: flex;">
+            <div class="swal2-success-circular-line-left" style="background-color: rgb(255, 255, 255);"></div>
+            <span class="swal2-success-line-tip"></span>
+            <span class="swal2-success-line-long"></span>
+            <div class="swal2-success-ring"></div> 
+            <div class="swal2-success-fix" style="background-color: rgb(255, 255, 255);"></div>
+            <div class="swal2-success-circular-line-right" style="background-color: rgb(255, 255, 255);"></div>
+        </div> 
+        animate wrong with circle
+        <div class="swal2-icon swal2-error swal2-animate-error-icon" style="display: flex;">
+            <span class="swal2-x-mark">
+                <span class="swal2-x-mark-line-left"></span>
+                <span class="swal2-x-mark-line-right"></span>
+            </span>
+        </div>     
+
+        animate circle
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
+                                <i class="glyphicon glyphicon-play whiteText" aria-hidden="true"></i>
+                                <span class="ripple pinkBg"></span>
+                                <span class="ripple pinkBg"></span>
+                                <span class="ripple pinkBg"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        Different Hamburger Menus
+        <div class="container">
+            <div class="row">
+                <div class="row">
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type1"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type2"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type3"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type4"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type5"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type6"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type7"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type8"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type9"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type10"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type11"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type12"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type13"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type14"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type15"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type16"></div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="cta">
+                            <div class="toggle-btn type17"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        cards 
+        <div class="home-doctors  clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 ">
+                        <div class="slogan-section animated fadeInUp clearfix ae-animation-fadeInUp">
+                            <h2>Meet our <span>Dental Specialists</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>                   
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-3 col-sm-6  text-center doc-item">
+                        <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
+
+                            <ul class="list-inline social-lists animate">
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+
+                            <figure>
+                                    <img width="670" height="500" src="http://somesweetphoto.smugmug.com/photos/i-VHdG3sd/0/O/i-VHdG3sd.jpg" class="doc-img animate attachment-gallery-post-single wp-post-image" alt="doctor-2"> 
+                            </figure>
+
+                            <div class="text-content">
+                                <h5>Dr. Jeremy</h5>
+                                <h5><small>Dentist Title</small></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6  text-center doc-item">
+                        <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
+
+                            <ul class="list-inline social-lists animate">
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+
+                            <figure>
+                                    <img width="670" height="500" src="http://somesweetphoto.smugmug.com/photos/i-VHdG3sd/0/O/i-VHdG3sd.jpg" class="doc-img animate attachment-gallery-post-single wp-post-image" alt="doctor-2"> 
+                            </figure>
+
+                            <div class="text-content">
+                                <h5>Dr. Jeremy</h5>
+                                <h5><small>Dentist Title</small></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6  text-center doc-item">
+                        <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
+
+                            <ul class="list-inline social-lists animate">
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+
+                            <figure>
+                                    <img width="670" height="500" src="http://somesweetphoto.smugmug.com/photos/i-VHdG3sd/0/O/i-VHdG3sd.jpg" class="doc-img animate attachment-gallery-post-single wp-post-image" alt="doctor-2"> 
+                            </figure>
+
+                            <div class="text-content">
+                                <h5>Dr. Jeremy</h5>
+                                <h5><small>Dentist Title</small></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6  text-center doc-item">
+                        <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
+
+                            <ul class="list-inline social-lists animate">
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+
+                            <figure>
+                                    <img width="670" height="500" src="http://somesweetphoto.smugmug.com/photos/i-VHdG3sd/0/O/i-VHdG3sd.jpg" class="doc-img animate attachment-gallery-post-single wp-post-image" alt="doctor-2"> 
+                            </figure>
+
+                            <div class="text-content">
+                                <h5>Dr. Jeremy</h5>
+                                <h5><small>Dentist Title</small></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visible-sm clearfix margin-gap"></div>
+                </div>
+            </div>
+        </div> 
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./STYLE.JS"></script>
+
+</body>
+</html>
